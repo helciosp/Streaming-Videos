@@ -1,10 +1,20 @@
 body {
     margin: 0;
 }
+main {
+    margin: 15px;
+}
 header {
     background-color: #50eb3c;
     padding: 20px;
     color: honeydew;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    margin: 0;
+    padding: 0;
 }
 header h1 {
     font-size: 2em;
@@ -18,12 +28,35 @@ header h1 {
     display: flex;
     list-style: none;
     justify-content: center;
-    margin: 0;
-    padding: 0;
 }
 .menu-li {
     margin: 0 1vw 0 1vw;
 }
-.menu-a {
-    text-decoration: none;
+main {
+    display: flex;
+    flex: 10;
+}
+#menu-aside {
+    flex: 2;
+    font-size: 15px;
+}
+#menu-aside ul {
+    font-size: 1em;
+    list-style: none;
+    padding-inline-start: 15px;
+}
+#section-em-alta {
+    flex: 8;
+    text-align: center;
+}
+#section-em-alta div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.article-cartaz {
+    margin: 10px;  
+}
+.aside-li {
+    margin: 1vh;
 }
