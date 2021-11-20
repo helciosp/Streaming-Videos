@@ -32,7 +32,7 @@ header h1 {
 .menu-li {
     margin: 0 1vw 0 1vw;
 }
-main {
+#body-wrapper {
     display: flex;
     flex: 10;
 }
