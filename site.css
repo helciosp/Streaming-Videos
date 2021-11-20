@@ -36,6 +36,9 @@ header h1 {
     display: flex;
     flex: 10;
 }
+main {
+    flex: 8;
+}
 #menu-aside {
     flex: 2;
     font-size: 15px;
@@ -46,7 +49,6 @@ header h1 {
     padding-inline-start: 15px;
 }
 #section-em-alta {
-    flex: 8;
     text-align: center;
 }
 #section-em-alta div {
